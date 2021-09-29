@@ -1,0 +1,37 @@
+.email-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-bottom: 1px solid #d1d0d3;
+  width: 100%;
+}
+
+.email-icons-left {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+.email-row-title {
+  display: flex;
+  align-items: center;
+}
+.email-row-title > h3 {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.email-text > h4 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+.email-text {
+  display: flex;
+  align-items: center;
+}
+.email-text > p {
+  color: gray;
+  font-weight: 400;
+}

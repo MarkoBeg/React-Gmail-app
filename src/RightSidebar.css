@@ -1,0 +1,40 @@
+.rightsidebar {
+  display: flex;
+  flex: 0.1;
+  flex-direction: column;
+  right: 0;
+  padding: 15px 0;
+  border: 1px solid #d1d0d3;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin-left: 10px;
+}
+.rightsidebar-item > h2 {
+  color: gray;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.rightsidebar-item > h4 {
+  color: gray;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 5px;
+  text-transform: capitalize;
+}
+.items {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  cursor: pointer;
+  border-top: 1px solid #d1d0d3;
+}
+.items:last-child {
+  border-bottom: 1px solid #d1d0d3;
+}
+.items:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}

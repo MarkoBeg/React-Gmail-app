@@ -1,0 +1,28 @@
+.mail-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0.8;
+}
+.mailsection-body {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mailsection-body > h2 {
+  font-size: 22px;
+  text-transform: capitalize;
+  padding-right: 15px;
+}
+.mailsection-body > p {
+  font-size: 16px;
+  padding-left: 15px;
+}
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}

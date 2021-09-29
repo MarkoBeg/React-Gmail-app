@@ -1,0 +1,22 @@
+.email-box {
+  display: flex;
+  min-width: 200px;
+  align-items: center;
+  justify-content: left;
+  border: 1px solid #d1d0d3;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom-width: 0 !important;
+}
+.email-box-active {
+  border-bottom: 3px solid lightcoral !important;
+}
+.email-box:hover {
+  border-width: 4px !important;
+  transition: all 0.2s ease-in;
+}
+.email-box > h4 {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}

@@ -1,0 +1,23 @@
+.email-body {
+  display: flex;
+  position: relative;
+  flex: 0.8;
+  width: 100%;
+}
+.email-box-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+.email-row-body {
+  display: flex;
+  position: absolute;
+  top: 80px;
+  flex: 0.7;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}

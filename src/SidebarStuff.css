@@ -1,0 +1,37 @@
+.sidebarstuff {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    color: gray;
+    
+}
+.sidestuff-active {
+    color: lightcoral;
+    
+}
+.side-stuff {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.side-stuff > h3 {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 0 10px;
+}
+.side-stuff > p {
+    font-size: 14px;
+    font-weight: bold;
+    display: none;
+    
+}
+.side-stuff:hover > p{
+    display: block;
+    transition: all 0.5s ease-in-out;
+
+}

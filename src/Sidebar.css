@@ -1,0 +1,41 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.1;
+  border: 1px solid #d1d0d3;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 15px;
+}
+
+.sidebar-compose > Button {
+  color: #1a73e8;
+  border: 1px solid transparent;
+  box-shadow: 1px 3px 4px 2px rgba(0, 0, 0, 0.35);
+  background-color: whitesmoke;
+  align-items: center;
+  margin-left: 15px;
+  border-radius: 15px;
+  margin-top: 15px;
+  height: 48px;
+  text-transform: capitalize;
+}
+.sidebar-bottom {
+  display: flex;
+  padding-top: 10px;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 15px;
+}
+.sidebar-bottom-meet {
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.sidebar-bottom > h3 {
+  color: lightcoral;
+  font-size: 20px;
+  font-weight: 600;
+}
